@@ -1,0 +1,19 @@
+//Xiaomi Poco C71={
+    Brand: 'Xiaomi',
+    model:'Xiaomi Poco C71'
+    Category: 'Smartphones',
+    Display:6.'88" 720x1640 pixels',
+    Camera :'32MP 1080p',
+    RAM:'4/6GB RAM Unisoc T7250',
+    Battery:'5200mAh 15W'
+}
+
+Xiaomi_Redmi_Note_14S:{
+       Brand: 'Xiaomi',
+    model:'Xiaomi Redmi Note 14S'
+    Category: 'Smartphones',
+    Display:6.'6.67" 1080x2400 pixels',
+    Camera :'200MP 1080p',
+    RAM:'8GB RAM Helio G99 Ultra',
+    Battery:'5000mAh 67W'
+}
