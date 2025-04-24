@@ -8,16 +8,65 @@
 </head>
 <body>
  
-    <div class="item-div">
-        <h1>Our Smarts Phones</h1>
-        <select name="" id="SelectProducts">
-            <option value="">---Select Your Device---</option>
-            <option value="Xiaomi Poco C71">Xiaomi Poco C71</option>
-            <option value="Xiaomi Redmi Note 14S">Xiaomi Redmi Note 14S</option>
-        </select>
+    <div class="device-container">
 
-        <div id="productInfo"></div>
-    </div>
+        <h1 class="phone-title"> Choose Your Phone and see Details </h1>
+        
+        <select name="phone" id="SelectProducts">
+          <option value="">---Choose Your Phone---</option>
+          <option value="Xiaomi Poco C7">Xiaomi Poco C7</option>
+          <option value="Xiaomi Redmi Note 14S">Xiaomi Redmi Note 14S</option>
+        </select>
+        
+        <div id="productInfo">
+          
+          <img id="productImage" class="product-img" src="" alt="">
+        
+        <table class="p-table">
+          <tr>
+            <th>Field</th>
+            <th>Value</th>
+          </tr>  
+          <tr>
+            <td>Brand</td>
+            <td id="productBrand"></td>
+          </tr>
+        
+          <tr>
+            <td>Model</td>
+            <td id="productModel"></td>
+          </tr>
+        
+          <tr>
+            <td>Category</td>
+            <td id="productCategory"></td>
+          </tr>
+        
+          <tr>
+            <td>Display</td>
+            <td id="productDisplay"></td>
+          </tr>
+        
+          <tr>
+            <td>Battery</td>
+            <td id="productBattery"></td>
+          </tr>
+        
+          <tr>
+            <td>RAM</td>
+            <td id="productRAM"></td>
+          </tr>
+        
+          <tr>
+            <td>Camera</td>
+            <td id="productCamera"></td>
+          </tr>
+        </table>
+        
+        </div>
+        
+        </div>
+        
 
 
 

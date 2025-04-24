@@ -1,24 +1,41 @@
-.item-div{
+.device-container{
+    width: 1000px;
+    margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
-}
-#SelectProducts{
+    background-color: rgb(148, 55, 11);
+    padding: 100px 30px;
+  }
+  .phone-title{
+    color: tomato;
+  }
+  #SelectProducts{
     padding: 10px 20px;
-}
-.p-table{
-    text-align: center;
+  }
+  #productInfo{
+    width: 400px;
+  
     margin: 20px auto;
+    text-align: center;
+    border: 3px solid gray;
+    display: none;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px gray;
+  }
+  #productImage{
+    width: 380px;
+    height: auto;
+    padding: 10px 0;
+  }
+  .p-table{
     border-collapse: collapse;
-   
-   
-}
-.p-table th,
-.p-table td{
     border: 1px solid black;
-}
-.product-img{
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    box-shadow: 2px 2px 2px rgb(180, 178, 178);
-}
+    margin: 0 auto;
+  }
+  .p-table tr td{
+    border: 1px solid black;
+    width: 500px;
+    padding:5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(19, 18, 18);
+  }
